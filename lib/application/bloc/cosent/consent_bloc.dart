@@ -15,6 +15,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 part 'consent_event.dart';
 part 'consent_state.dart';
 
+
+
+// h
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // If you're going to use other Firebase services in the background, such as Firestore,
   // make sure you call `initializeApp` before using other Firebase services.
